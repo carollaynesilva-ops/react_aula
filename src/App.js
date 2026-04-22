@@ -1,20 +1,27 @@
 // ARQUIVO PRINCIPAL
 
 import './App.css';
-import Logo from './componentes/Logo';
-import OpcoesHeader from './componentes/OpcoesHeader';
-import IconesHeader from './componentes/IconesHeader';
+import Header from './componentes/Header'
+import styled from 'styled-components'; // container que guarda estilos
+const AppContainer = `
+  
+  width: 100vw;
+  height: 100vw;
+  background-image: linear-gradient(90deg, #002f52 35%, #326589);
 
+.li{
+  list-style: none;
+}
 
-
+`
 
 
 
 function App() {
   return (
-    <div className='App' >
-      
-    </div>
+    <AppContainer >
+      <Header/>
+    </AppContainer>
   );
 }
 
