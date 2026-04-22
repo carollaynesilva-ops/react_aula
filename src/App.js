@@ -3,25 +3,17 @@
 import './App.css';
 import Logo from './componentes/Logo';
 import OpcoesHeader from './componentes/OpcoesHeader';
-import perfil from './imagens/perfil.svg';
-import sacola from './imagens/sacola.svg';
+import IconesHeader from './componentes/IconesHeader';
 
 
-const icones=[perfil, sacola];
+
+
+
 
 function App() {
   return (
     <div className='App' >
-      <header className='App-header'>
-        <Logo></Logo>
-        <OpcoesHeader></OpcoesHeader>
-        
-
-{/* ////////////////////////////////////////////////////////////////////// */}
-
-        
-
-      </header>
+      
     </div>
   );
 }
