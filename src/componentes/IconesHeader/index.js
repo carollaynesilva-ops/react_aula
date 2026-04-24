@@ -1,20 +1,35 @@
-import './estilo.css';
+
 import perfil from '../../imagens/perfil.svg';
 import sacola from '../../imagens/sacola.svg';
+import styled from 'styled-components';
 
+const Icone = styled.li`
+
+  margin-right: 40px;
+  width: 25px;
+
+`
+// NÃO SE ESQUECE DE DEPOIS MUDAR A TAG ALI EMBAIXO
+const Icones=styled.ul`
+    display: flex;
+    align-items: center;
+     margin-right: 10px;
+
+
+`
 
 const icones=[perfil, sacola];
 
 function IconesHeader() {
     return (
-        <ul className='icones'>
+        <Icones>
             {icones.map((icone) => (
 
-                <li><img src={icone}></img></li>
+                <Icone><img src={icone}></img></Icone>
 
             ))}
 
-        </ul>
+        </Icones>
     )
 }
 

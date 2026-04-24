@@ -1,9 +1,0 @@
-.logo{
-  display: flex;
-  font-size: 30px;
-}
-
-/* imagem que está dentro da classe logo */
-.logo-img{
-    margin-right: 10px;
-}
