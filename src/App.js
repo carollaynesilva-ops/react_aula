@@ -5,6 +5,7 @@ import Header from './componentes/Header'
 import styled from 'styled-components'; // container que guarda estilos
 import Pesquisa from './componentes/Pesquisa';
 import Input from './componentes/Input';
+import UltimosLancamentos from './componentes/UltimosLancamentos';
 
 
  // aqui não precisa puxar classe, só botar
@@ -22,6 +23,7 @@ function App() {
     <AppContainer >
       <Header/>
       <Pesquisa/>
+      <UltimosLancamentos/>
     </AppContainer>
   );
 }
